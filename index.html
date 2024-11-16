@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boba creator</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="icon" href="assets/icon.png" />
+</head>
+<body>
+<header>
+    <h1>Boba Creator</h1>
+    <p>Create your own Boba based on your preferences!</p>
+    <hr>
+</header>
+
+<main>
+    <h2>1. Pick a color</h2>
+    <input type="radio" name="q1" value="beige" /><label>Beige</label>
+    <input type="radio" name="q1" value="green" /><label>Green</label>
+    <input type="radio" name="q1" value="other" /><label>Other</label>
+    <input type="radio" name="q1" value="transparent" /><label>None</label>
+
+    <h2>2. Choose topping</h2>
+    <input type="radio" name="q2" value="jelly" /><label>Jelly</label>
+    <input type="radio" name="q2" value="pearls" /><label>Pearls</label>
+    <input type="radio" name="q2" value="redBeans" />
+    <label>Red Beans</label>
+
+    <h2>3. Milk or no milk?</h2>
+    <input type="radio" name="q3" value="milk" /> <label>Milk</label>
+    <input type="radio" name="q3" value="noMilk" /> <label>No Milk</label>
+
+    <hr />
+
+    <section id="results" style="margin-bottom: 5%">
+        <h1 id="resultHeader">Your result is...</h1>
+
+        <div class="result" id="milkTea">
+            <h1>Drink Classic Milk Boba!</h1>
+            <p>Classic! Simple but amazing and loved by everyone!</p>
+            <img src="https://www.webstaurantstore.com/uploads/blog/2023/3/woman-holding-bubble-tea-with-well-lit-night-background.jpg"
+                 alt="Milk Tea Boba"/>
+        </div>
+
+        <div class="result" id="tarodMilkTea">
+            <h1>Test Taro Milk!</h1>
+            <p>Chewy pearls, creamy. You know what to choose!</p>
+            <img src="https://tyberrymuch.com/wp-content/uploads/2022/07/taro-milk-tea-recipe-1-720x720.jpg"
+                 alt="Taro Milk Boba" />
+        </div>
+
+        <div class="result" id="matchaLatte">
+            <h1>Try Matcha Latte!</h1>
+            <p>Classic - matcha with latte, you can't go wrong with it!</p>
+            <img src="https://www.vitamix.com/content/dam/vitamix/migration/media/other/images/i/Iced-Matcha-Bubble-Tea-470-449.jpg"
+                 alt="Matcha Latte Boba" />
+        </div>
+
+        <div class="result" id="thaiTeaLatte">
+            <h1>Prepare a Thai Latte!</h1>
+            <p>Everyone loves Thai, everyone loves Latte and Boba too. Everything at once, wow!</p>
+            <img src="https://sugaryums.com/wp-content/uploads/2022/03/Thai-Milk-Tea-SugarYums-7.jpg"
+                 alt="Thai Tea Latte Boba" />
+        </div>
+
+        <div class="result" id="puddingMilkTea">
+            <h1>Drink a Pudding Milk!</h1>
+            <p>Pudding Milk Boba, wow. Sounds very tasty, VERY!</p>
+            <img src="https://www.siftandsimmer.com/wp-content/uploads/2020/08/coco-inspired-egg-custard-bubble-tea5-683x1024.jpg"
+                 alt="Pudding Milk Boba" />
+        </div>
+
+        <div class="result" id="grassJellyMilkTea">
+            <h1>Take on Grass Jelly Milk!</h1>
+            <p>Jelly with grass and milk, interesting. Touch some grass while drinking!</p>
+            <img src="https://christieathome.com/wp-content/uploads/2020/11/Grass-Jelly-Brown-Sugar-Milk-8-scaled.jpg"
+                 alt="Grass Jelly Milk Boba" />
+        </div>
+
+        <div class="result" id="greenTea">
+            <h1>Grab Pure Green Tea Boba!</h1>
+            <p>It's just purely refreshing, gonna keep you awake for sure!</p>
+            <img src="https://theoregondietitian.com/wp-content/uploads/2022/06/MatchaBubbleTea-1200-x-1200.jpg"
+                 alt="Green Tea Boba" />
+        </div>
+
+        <div class="result" id="matchaJelly">
+            <h1>Treat yourself to a Matcha Jelly!</h1>
+            <p>Ohh, nice taste! Jelly with matcha is unique, but definitely good!</p>
+            <img src="https://howdaily.com/wp-content/uploads/2020/01/Green-Tea-Jelly.jpg"
+                 alt="Matcha Jelly Boba" />
+        </div>
+
+        <div class="result" id="matchaRedBean">
+            <h1>Give yourself a Matcha Red Bean!</h1>
+            <p>Not so sweet matcha with very sweet beans, perfect!</p>
+            <img src="https://sunwide.com.au/cdn/shop/articles/m10_1200x1559.jpg?v=1559689248"
+                 alt="Matcha Red Bean Boba" />
+        </div>
+
+        <div class="result" id="fruitTea">
+            <h1>Buy yourself a Fruit Tea Boba!</h1>
+            <p>A typical Boba but with fruits, classic sweet choice!</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA_EspGp6VyHkdOZCi1r6Yy5emYDtWrHSXOg&s"
+                 alt="Fruit Tea Boba" />
+        </div>
+
+        <div class="result" id="lycheeJelly">
+            <h1>Try out Lychee Jelly!</h1>
+            <p>Lychee is underrated, you know it!</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH0A3EnIeeNkrCskAWgU-Hxi5sKyz9wd1qow&s"
+                 alt="Lychee Jelly Boba" />
+        </div>
+
+        <div class="result" id="passionFruit">
+            <h1>Take on Passion Fruit Red Bean!</h1>
+            <p>Sweet red beans, sweet fruits. Ahhh, so sweet!</p>
+            <img src="https://cdn.foodaciously.com/static/recipes/7205ced8-8409-4261-942b-243d36e11278/passion-fruit-bubble-tea-sugar-free-95fce9ec4a30ebfb3eac6f42c14ed3e1-1920-q60.jpg"
+                 alt="Passion Fruit Boba" />
+        </div>
+
+        <div class="result" id="crystalBoba">
+            <h1>Make a Crystal Boba!</h1>
+            <p>Clear, very clear. Looks cool, maybe even tastes good?</p>
+            <img src="https://i5.walmartimages.com/asr/9f0b8315-3f49-4f3a-933b-b7f3040ea5e6.b93bbbeacd87c1697dc12c1e92e0e227.png?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+                 alt="Crystal Boba" />
+        </div>
+
+        <div class="result" id="honeyCrystal">
+            <h1>Try Honey Crystal!</h1>
+            <p>Honey is excellent, make drops crystal to make it taste even better!</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgn5AQbE6o1MMft5vfaZfs6UtfA3cvpvkpDg&s"
+                 alt="Honey Crystal Boba" />
+        </div>
+
+        <div class="result" id="jasmineBeans">
+            <h1>Take a Jasmine Red Bean!</h1>
+            <p>Hmmm, that's unique, very unique!</p>
+            <img src="https://www.greedygirlgourmet.com/wp-content/uploads/2022/08/Iced-jasmine-boba-milk-tea-360x360.jpg"
+                 alt="Jasmine Beans Boba" />
+        </div>
+
+        <div class="result" id="brownSugarMilk">
+            <h1>Best for you is Brown Sugar Pearl Milk!</h1>
+            <p>Brown sugar is superior to normal one, good choice!</p>
+            <img src="https://takestwoeggs.com/wp-content/uploads/2021/04/Brown-Sugar-Milk-Tea-Boba-Recipe-Takestwoeggs-Easy-Asian-Inspired-Recipes-sq.jpg"
+                 alt="Brown Sugar Milk Boba" />
+        </div>
+
+        <div class="result" id="coconutMilk">
+            <h1>Choose a Coconut Milk!</h1>
+            <p>Coconut milk is awesome, so a Boba of that flavour is even better!</p>
+            <img src="https://www.souschef.co.uk/cdn/shop/articles/coconut_bubble_tea.png?v=1659111838"
+                 alt="Coconut Milk Boba" />
+        </div>
+
+        <div class="result" id="redBeanMilk">
+            <h1>Your Boba is Sweet Red Bean Milk!</h1>
+            <p>Very sweet and creamy, that's what makes it good!</p>
+            <img src="https://deliciousnotgorgeous.com/wp-content/uploads/2021/03/RedBeanMilkTea_9593_blog1.jpg"
+                 alt="Red Bean Milk Boba" />
+        </div>
+
+        <div class="result" id="matchaMilk">
+            <h1>Grab for yourself a Matcha Milk!</h1>
+            <p>Milk, matcha ahh, perfect! Just perfect!</p>
+            <img src="https://www.honestfoodtalks.com/wp-content/uploads/2022/02/Matcha-milk-tea-recipe-with-boba-and-ice.jpg"
+                 alt="Matcha Milk Boba" />
+        </div>
+
+        <div class="result" id="grassJellyMilk">
+            <h1>Take a Grass Jelly Milk!</h1>
+            <p>More healthy take, huh? Good, but touch grass instead of drinking it!</p>
+            <img src="https://carmyy.com/wp-content/uploads/2022/02/Grass-Jelly-Milk-Tea-7.jpg"
+                 alt="Grass Jelly Milk Boba" />
+        </div>
+
+        <div class="result" id="redBeanMatchaMilk">
+            <h1>Buy a Red Bean Matcha Milk!</h1>
+            <p>Sweet beans, matcha flavour - a perfect combination!</p>
+            <img src="https://sunwide.com.au/cdn/shop/articles/m10_1200x1559.jpg?v=1559689248"
+                 alt="Red Bean Matcha Milk Boba" />
+        </div>
+
+        <div class="result" id="pearLychee">
+            <h1>Grab yourself Pear Lychee Tea!</h1>
+            <p>Pears are juicy, so it's extremely refreshing!</p>
+            <img src="https://myveganminimalist.com/wp-content/uploads/2022/08/Lychee-Bubble-Milk-Tea-Boba-13.jpg"
+                 alt="Pear Lychee Boba" />
+        </div>
+
+        <div class="result" id="peachOolong">
+            <h1>Take Peach Oolong Jelly Boba!</h1>
+            <p>A nice clear tea with fruit jelly, peachy!</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJxCYMuCvoomMRt594duunYRVZXo-PqT71fw&s"
+                 alt="Peach Oolong Boba" />
+        </div>
+
+        <div class="result" id="longanRed">
+            <h1>Grab Longan Red Bean Boba!</h1>
+            <p>Kinda weird, but why not! It's unique!</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5wldY8gNWtl8dEfoJfNpDdur2Lkc-igxpzw&s"
+                 alt="Longan Red Boba" />
+        </div>
+    </section>
+</main>
+</body>
+</html>

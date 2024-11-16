@@ -1,0 +1,264 @@
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin-top: 5%;
+    color: darksalmon;
+    font-size: 3em;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+main {
+    margin-top: 10%;
+}
+
+main h2 {
+    text-align: center;
+    margin: 5%;
+}
+
+main input {
+    margin-left: 15%;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+}
+
+.question label {
+    margin: 20px;
+}
+
+#results {
+    margin-top: 10%;
+}
+
+input[name="q3"]:checked ~ #results {
+    display: block;
+}
+
+#results .result {
+    display: none;
+    text-align: center;
+    color: darksalmon;
+}
+
+#results .result h1 {
+    color: darksalmon;
+    font-size: 2em;
+}
+
+#resultHeader {
+    text-align: center;
+    color: sandybrown;
+}
+
+hr {
+    background-color: burlywood;
+    color: burlywood;
+    width: 80%;
+    height: 4px;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+/* Milk Tea Boba */
+input[value="beige"]:checked ~
+input[value="pearls"]:checked ~
+input[value="milk"]:checked ~
+#results #milkTea {
+    display: block;
+}
+
+/* Coconut Milk Boba */
+input[value="beige"]:checked ~
+input[value="jelly"]:checked ~
+input[value="milk"]:checked ~
+#results #coconutMilk {
+    display: block;
+}
+
+/* Red Bean Milk Boba */
+input[value="beige"]:checked ~
+input[value="redBeans"]:checked ~
+input[value="milk"]:checked ~
+#results #redBeanMilk {
+    display: block;
+}
+
+/* Brown Sugar Milk Boba */
+input[value="beige"]:checked ~
+input[value="pearls"]:checked ~
+input[value="noMilk"]:checked ~
+#results #brownSugarMilk {
+    display: block;
+}
+
+/* Grass Jelly Milk Boba */
+input[value="beige"]:checked ~
+input[value="jelly"]:checked ~
+input[value="noMilk"]:checked ~
+#results #grassJellyMilk {
+    display: block;
+}
+
+/* Thai Tea Latte Boba */
+input[value="beige"]:checked ~
+input[value="redBeans"]:checked ~
+input[value="noMilk"]:checked ~
+#results #thaiTeaLatte {
+    display: block;
+}
+
+/* Matcha Milk Boba */
+input[value="green"]:checked ~
+input[value="pearls"]:checked ~
+input[value="milk"]:checked ~
+#results #matchaMilk {
+    display: block;
+}
+
+/* Matcha Jelly Boba */
+input[value="green"]:checked ~
+input[value="jelly"]:checked ~
+input[value="milk"]:checked ~
+#results #matchaJelly {
+    display: block;
+}
+
+/* Red Bean Matcha Milk Boba */
+input[value="green"]:checked ~
+input[value="redBeans"]:checked ~
+input[value="milk"]:checked ~
+#results #redBeanMatchaMilk {
+    display: block;
+}
+
+/* Green Tea Boba */
+input[value="green"]:checked ~
+input[value="pearls"]:checked ~
+input[value="noMilk"]:checked ~
+#results #greenTea {
+    display: block;
+}
+
+/* Matcha Jelly Boba */
+input[value="green"]:checked ~
+input[value="jelly"]:checked ~
+input[value="noMilk"]:checked ~
+#results #matchaJelly {
+    display: block;
+}
+
+/* Matcha Red Bean Boba */
+input[value="green"]:checked ~
+input[value="redBeans"]:checked ~
+input[value="noMilk"]:checked ~
+#results #matchaRedBean {
+    display: block;
+}
+
+/* Tarod Milk Tea Boba */
+input[value="other"]:checked ~
+input[value="pearls"]:checked ~
+input[value="milk"]:checked ~
+#results #tarodMilkTea {
+    display: block;
+}
+
+/* Luchee Jelly Boba */
+input[value="other"]:checked ~
+input[value="jelly"]:checked ~
+input[value="milk"]:checked ~
+#results #lycheeJelly {
+    display: block;
+}
+
+/* Passion Fruit Boba */
+input[value="other"]:checked ~
+input[value="redBeans"]:checked ~
+input[value="milk"]:checked ~
+#results #passionFruit {
+    display: block;
+}
+
+/* Fruit Tea Boba */
+input[value="other"]:checked ~
+input[value="pearls"]:checked ~
+input[value="noMilk"]:checked ~
+#results #fruitTea {
+    display: block;
+}
+
+/* Lychee Jelly Boba */
+input[value="other"]:checked ~
+input[value="jelly"]:checked ~
+input[value="noMilk"]:checked ~
+#results #lycheeJelly {
+    display: block;
+}
+
+/* Passion Fruit Boba */
+input[value="other"]:checked ~
+input[value="redBeans"]:checked ~
+input[value="noMilk"]:checked ~
+#results #passionFruit {
+    display: block;
+}
+
+/* Pearl Lychee Boba */
+input[value="transparent"]:checked ~
+input[value="pearls"]:checked ~
+input[value="milk"]:checked ~
+#results #pearLychee {
+    display: block;
+}
+
+/* Peach Oolong Boba */
+input[value="transparent"]:checked ~
+input[value="jelly"]:checked ~
+input[value="milk"]:checked ~
+#results #peachOolong {
+    display: block;
+}
+
+/* Longan Red Boba */
+input[value="transparent"]:checked ~
+input[value="redBeans"]:checked ~
+input[value="milk"]:checked ~
+#results #longanRed {
+    display: block;
+}
+
+/* Crystal Boba */
+input[value="transparent"]:checked ~
+input[value="pearls"]:checked ~
+input[value="noMilk"]:checked ~
+#results #crystalBoba {
+    display: block;
+}
+
+/* Honey Crystal Boba */
+input[value="transparent"]:checked ~
+input[value="jelly"]:checked ~
+input[value="noMilk"]:checked ~
+#results #honeyCrystal {
+    display: block;
+}
+
+/* Jasmine Beans Boba */
+input[value="transparent"]:checked ~
+input[value="redBeans"]:checked ~
+input[value="noMilk"]:checked ~
+#results #jasmineBeans {
+    display: block;
+}
