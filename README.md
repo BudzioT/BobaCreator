@@ -4,7 +4,7 @@ I never knew using JS helps soo much<br>
 I definitely love React now even more<br><br>
 I'm sure that I will make some websites now to get rid of the pure HTML/CSS feeling I've gone through
 
-## View it at [Boba Creator]()
+## View it at [Boba Creator](https://budziot.github.io/BobaCreator/)
 ![screenshot.png](https://cloud-69pfxj9uy-hack-club-bot.vercel.app/0image.png)
 
 ## Difficulties
